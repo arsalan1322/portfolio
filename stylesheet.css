@@ -1,0 +1,191 @@
+/* First half taken from Jon Barron's website */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+strong {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.papertitle {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+.fade {
+  transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+/* Arsalan's Additions */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.experience-section {
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.experience-header {
+  padding: 15px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.experience-header h2 {
+  font-size: 24px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.experience-content {
+  padding: 20px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out 0.1s; /* Add a delay of 0.1s */
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.experience-logo {
+  flex-shrink: 0;
+  width: 15%;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+.experience-logo img {
+  width: 100%;
+  border-radius: 25%;
+}
+
+.experience-details {
+  width: 75%;
+}
+
+.bio-section {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio-text {
+  width: 60%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.bio-text-next {
+  width: 100%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.bio-text p {
+  margin-bottom: 10px;
+}
+
+.bio-image {
+  width: 40%;
+  max-width: 40%;
+  padding: 2.5%;
+  box-sizing: border-box;
+}
+
+.bio-image img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.space-at-end {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
