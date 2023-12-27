@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
   var experienceSections = document.querySelectorAll(".experience-section");
 
   experienceSections.forEach(function (experienceSection) {
-    var dropdownButton = experienceSection.querySelector(".dropdown-button");
+    var experienceHeader =
+      experienceSection.querySelector(".experience-header");
+    var dropdownButton = experienceHeader.querySelector(".dropdown-button");
     var experienceContent = experienceSection.querySelector(
       ".experience-content"
     );
 
-    if (dropdownButton) {
-      dropdownButton.addEventListener("click", function () {
+    if (experienceHeader && dropdownButton) {
+      experienceHeader.addEventListener("click", function () {
         var isCollapsed = experienceSection.classList.toggle("collapsed");
         experienceContent.style.maxHeight = isCollapsed
           ? "0px"

@@ -189,3 +189,28 @@ h3 {
 p {
   margin: 5px 0;
 }
+
+/* Papers, reports, conferences, presentations etc. lists */
+.portfolio-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.portfolio-section {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.portfolio-subsection {
+  margin-bottom: 15px;
+}
+
+.portfolio-list {
+  padding-left: 20px;
+  list-style-type: disc; /* Use 'disc' for bullet points */
+}
+
+.portfolio-item {
+  margin-bottom: 5px;
+  font-size: 16px; /* Adjust the font size as needed */
+}
