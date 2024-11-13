@@ -111,7 +111,8 @@ body {
 .experience-content {
   padding: 20px;
   overflow: hidden;
-  transition: max-height 0.3s ease-out 0.1s; /* Add a delay of 0.1s */
+  transition: max-height 0.3s ease-out 0.1s;
+  /* Add a delay of 0.1s */
 }
 
 .experience-item {
@@ -207,10 +208,35 @@ p {
 
 .portfolio-list {
   padding-left: 20px;
-  list-style-type: disc; /* Use 'disc' for bullet points */
+  list-style-type: disc;
+  /* Use 'disc' for bullet points */
 }
 
 .portfolio-item {
   margin-bottom: 5px;
-  font-size: 16px; /* Adjust the font size as needed */
+  font-size: 16px;
+  /* Adjust the font size as needed */
+}
+
+/* Cats */
+
+.cat-gallery {
+  display: flex;
+  gap: 10px;
+  /* Space between images */
+  justify-content: center;
+  /* Center images horizontally */
+  margin-top: 15px;
+  /* Optional: adds spacing between text and images */
+}
+
+.cat-gallery img {
+  width: 230px;
+  /* Set desired width */
+  height: 250px;
+  /* Set desired height */
+  object-fit: cover;
+  /* Keeps images properly cropped and aligned */
+  border-radius: 5px;
+  /* Optional: gives a slight rounding to images */
 }
